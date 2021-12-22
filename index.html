@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vintage Cars</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Insert navbar here -->
+    <div class="topnav" id="topnav">
+      <a class="navbar-brand">
+        <img src="./car_logo_2.PNG" class="img-fluid" id="logo" />
+      </a>
+      <a href="#cars">Cars</a>
+      <a href="#enquiries">Enquiries</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Heading -->
+    <h1 id="heading">Vintage Cars For Hire</h1>
+
+    <!-- Cars section -->
+    <div id="cars" class="row">
+      <!-- Disply 4 cars as cards -> pics must have alt text-->
+      <div class="card">
+        <img
+          src="https://cdn.pixabay.com/photo/2019/02/23/19/28/vw-4016326_960_720.jpg"
+          alt="Red VW Beetle"
+        />
+        <div class="container">
+          <h4><b>Red Volkswagen Beetle</b></h4>
+          <p>1965 model, stunning condition</p>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="https://cdn.pixabay.com/photo/2018/03/23/09/15/chevrolet-3253172_960_720.png"
+          alt="Red Chevy Corvette"
+        />
+        <div class="container">
+          <h4><b>Red Chevrolet Corvette</b></h4>
+          <p>Isolated 6zyl In series</p>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="https://images.unsplash.com/photo-1508171997656-fdf7cf6c4df9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          alt="teal chevy"
+        />
+        <div class="container">
+          <h4><b>Teal Chevrolet Corvette</b></h4>
+          <p>1945 model, mint condition</p>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="https://images.unsplash.com/photo-1591293835940-934a7c4f2d9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
+          alt="white chevy Camaro"
+        />
+        <div class="container">
+          <h4><b>White Chevrolet Camaro</b></h4>
+          <p>1965 model, stunning condition</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Enquiries section -->
+    <div id="enquiries" class="container">
+      <!-- form here -->
+      <form>
+        <h3>Submit an enquiry here!</h3>
+        <label for="fname">Full name:</label><br />
+        <input type="text" id="fname" name="fname" /><br />
+        <label for="email">Email Address:</label><br />
+        <input type="text" id="email" name="email" /><br />
+        <label for="selectCar">Select Car:</label><br />
+        <select id="selectCar" name="car">
+          <option value="red beetle">Red VW Beetle</option>
+          <option value="red corvette">Red Chevrolet Corvette</option>
+          <option value="teal corvette">Teal Chevrolet Corvette</option>
+          <option value="white camaro">White Chevrolet Camaro</option>
+        </select>
+        <br />
+        <label for="comments">Comments:</label><br />
+        <textarea id="comments" name="comments"></textarea><br />
+        <input type="submit" value="submit" /><br />
+      </form>
+    </div>
+
+    <!-- Contact w/ car agency details -->
+    <div id="contact">
+      <h3>Contact</h3>
+      <p>
+        John Smith<br />
+        johnsmithvintagecars@carhire.com<br />
+        0412345678<br />
+        123 dummy street, Fake Suburb, City 1234
+      </p>
+      <br />
+    </div>
+
+    <a id="backtop" href="#heading">back to top</a>
+
+    <!-- footer w/ copyright in the centre -->
+    <div class="footer">
+      <p>© copyright author name here</p>
+    </div>
+  </body>
+</html>
